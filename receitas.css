@@ -1,0 +1,81 @@
+header{
+    width: 100%;
+    background-color: rgb(58, 58, 58);
+
+}
+body {
+    background-color: #FF5733; /* Cor de fundo semelhante ao logo */
+    font-family: Arial, sans-serif;
+    color: black; /* Cor do texto */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove paddings padrão */
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: white; /* Cor do texto dos links ativos */
+}
+
+.container-fluid {
+    padding: 0; /* Remove padding para que o nav ocupe 100% da largura */
+}
+
+.navbar {
+    padding: 0 20px; /* Controla o padding interno do navbar */
+}
+
+.container {
+    background-color: #FF5733; /* Cor de fundo semelhante ao logo */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.jumbotron {
+    background-color: #FF5733; /* Altere para a cor de fundo do logo */
+    color: white; /* Altere para a cor do texto do logo */
+    padding: 50px 25px;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 80px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 10px;
+}
