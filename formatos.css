@@ -49,7 +49,9 @@ footer {
 button.btn.btn-dark {
     margin-top: 10px; /* Adiciona espaço acima do botão */
     display: block; /* Garante que o botão ocupe toda a linha */
-    width: 10%; /* Ocupa 100% da largura do contêiner */
+    width: 10%; 
+    float: right;
+
 }
 .logo-title-container {
     display: flex;
