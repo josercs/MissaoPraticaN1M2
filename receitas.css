@@ -1,81 +1,54 @@
-header{
-    width: 100%;
-    background-color: rgb(58, 58, 58);
-
-}
-body {
-    background-color: #FF5733; /* Cor de fundo semelhante ao logo */
-    font-family: Arial, sans-serif;
-    color: black; /* Cor do texto */
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove paddings padrão */
-}
-
-.navbar-dark .navbar-nav .nav-link.active {
-    font-weight: bold;
-    color: white; /* Cor do texto dos links ativos */
-}
-
-.container-fluid {
-    padding: 0; /* Remove padding para que o nav ocupe 100% da largura */
-}
-
-.navbar {
-    padding: 0 20px; /* Controla o padding interno do navbar */
-}
-
-.container {
-    background-color: #FF5733; /* Cor de fundo semelhante ao logo */
+/* Define a área principal de receitas como um flex container */
+.recipe-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 20px;
-    margin-top: 20px;
+    overflow-y: auto;
+}
+
+/* Formatação dos painéis das receitas */
+.recipe-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
     border-radius: 10px;
+    width: 300px; /* Dimensão fixa */
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-label {
+/* Nome da receita */
+.recipe-title {
+    font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 10px;
-}
-
-.form-control {
     margin-bottom: 10px;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    padding: 10px 0;
-    position: fixed;
+/* Foto do prato */
+.recipe-img {
     width: 100%;
-    bottom: 0;
-}
-
-.jumbotron {
-    background-color: #FF5733; /* Altere para a cor de fundo do logo */
-    color: white; /* Altere para a cor do texto do logo */
-    padding: 50px 25px;
-}
-
-.jumbotron h1 {
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-.logo {
-    width: 50px;
-    height: auto;
-    margin-bottom: 15px;
-    border-radius: 80px;
-}
-
-.card {
-    margin-bottom: 20px;
-}
-
-.card-img-top {
-    height: 150px;
+    height: 200px; /* Altura fixa */
     object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
-.card-body {
-    padding: 10px;
+/* Lista de ingredientes */
+.recipe-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
 }
+
+/* Modo de preparo */
+.recipe-content p {
+    margin: 10px 0;
+}
+
+/* Barra de rolagem vertical na área de receitas */
+main.container-fluid {
+    height: 80vh; /* Altura máxima da área principal */
+    overflow-y: auto;
+}
+
+

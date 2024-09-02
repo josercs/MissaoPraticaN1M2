@@ -5,7 +5,7 @@ body {
 }
 
 header, main, footer {
-    padding: 20px;
+    padding: 30px;
     margin: 0;
 }
 
@@ -18,6 +18,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    background-color: rgb(58, 58, 58);
+    padding: 0;
 }
 
 nav ul {
@@ -35,7 +38,43 @@ nav ul li a {
 }
 
 footer {
-    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 0px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+button.btn.btn-dark {
+    margin-top: 10px; /* Adiciona espaço acima do botão */
+    display: block; /* Garante que o botão ocupe toda a linha */
+    width: 10%; /* Ocupa 100% da largura do contêiner */
+}
+.logo-title-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente o logo e o título */
+    justify-content: center; /* Centraliza o conteúdo */
+    padding: 80px 20px;
 }
 
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px; /* Espaço entre o logo e o título */
+}
 
+.jumbotron h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0; /* Remove a margem padrão */
+}
+.jumbotron {
+    background-color: #FF5733; /* Altere para a cor de fundo do logo */
+    padding: 50px 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+p{
+    margin: 0px;
+}
